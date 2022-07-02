@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* written by 糖米 */
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+body{
+  font-family: 'San Francisco', sans-serif;
+  line-height: 1.5;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title{
+  margin-top: 40px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000;
+  font-size: 80px;
+  font-weight: normal;
+  line-height: 95px;
+}
+.line-bold{
+  height: 2px;
+}
+.shot{
+  width: 324px;
+  height: 324px;
+  margin: 48px 0;
+  border-radius: 50%;
+}
+.shot img{
+  display: block;
+}
+
+section{
+  margin-bottom: 72px;
+}
+section h2{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 45px;
+}
+section span{
+  margin-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+}
+section ul{
+  margin-bottom: 24px;
+}
+section li{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 200;
+}
+
+.education li{
+  margin-bottom: 24px;
+}
+
+.skills{
+  padding: 24px 20px 52px 20px;
+  color: #fff;
+  background-color: #415165;
+}
+.skills h2{
+  justify-content: center;
+  width: 100%;
+  max-width: 996px;
+  margin: 0 auto 40px auto;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+}
+.skills span{
+  color: #fff;
+}
+.skills ul{
+  width: 225px;
+  margin: 0 auto;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+.skills li{
+  line-height: 36px;
+}
+.skills li:not(:last-child){
+  margin-bottom: 8px;
+}
+
+.work ul{
+  margin-left: 24px;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+.work li{
+  margin-bottom: 32px;
+}
+.work h3{
+  font-weight: 500; 
+  line-height: 33px;
+}
+.work img{
+  margin: 8px 0;
+}
+.work p{
+  width: 100%;
+  max-width: 642px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 20px 48px 20px;
+  font-size: 0;
+  color: #fff;
+  background-color: #415165;
+}
+.footer h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 32px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 45px;
+  border-bottom: 1px solid #fff;
+}
+.footer span{
+  margin-left: 16px;
+  font-size: 24px;
+}
+.footer-text li{
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.footer-text a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-text li:last-child{
+  margin-bottom: 20px;
+}
+.footer-icon li{
+  display: inline-block;
+}
+.footer-icon li:not(:last-child){
+  margin-right: 24px;
+}
