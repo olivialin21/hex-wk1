@@ -63,15 +63,12 @@ body{
   padding-bottom: 24px;
   border-bottom: 2px solid #000;
   font-size: 80px;
-  font-weight: normal;
   line-height: 95px;
 }
 .line-bold{
   height: 2px;
 }
 .shot{
-  width: 324px;
-  height: 324px;
   margin: 48px 0;
   border-radius: 50%;
 }
@@ -117,7 +114,6 @@ section li{
 }
 .skills h2{
   justify-content: center;
-  width: 100%;
   max-width: 996px;
   margin: 0 auto 40px auto;
   padding-bottom: 8px;
@@ -197,12 +193,23 @@ section li{
 .footer-text a{
   text-decoration: none;
   color: #fff;
+	transition: all 0.3s;
+}
+.footer-text a:hover{
+	color: #a1a7d6;
 }
 .footer-text li:last-child{
   margin-bottom: 20px;
 }
+.footer-icon{
+	text-align: center;
+}
 .footer-icon li{
   display: inline-block;
+	transition: all 0.3s;
+}
+.footer-icon li:hover{
+	transform: scale(1.2);
 }
 .footer-icon li:not(:last-child){
   margin-right: 24px;
